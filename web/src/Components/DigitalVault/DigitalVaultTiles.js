@@ -70,7 +70,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   });
 
 
-export default function RewardsTiles() {
+export default function DigitalVaultTiles() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
@@ -96,7 +96,7 @@ export default function RewardsTiles() {
       <CssBaseline />
           <main>
               <Typography variant="h5" className={classes.divHeading}>
-                <b>Explore the many ways you can earn loyalty points & coupons with AIR DASH Platform!</b>
+                <b>Secured online platform where you can collect and maintain your important travel digital assets!</b>
               </Typography>
               <br />
               <Grid container spacing={4}>
@@ -137,7 +137,7 @@ export default function RewardsTiles() {
                             align="center"
                             fullWidth
                           >
-                          Reedem ow
+                          Verify now
                       </Button>
                       </CardActions>
                       </CardContent>
@@ -149,10 +149,10 @@ export default function RewardsTiles() {
            
               <br />
               <Typography variant="h5" className={classes.divHeading}>
-                <b>Digitally Enabling Shops</b>
+                <b>Digitally Enabling Travelers</b>
               </Typography>
               <Typography variant="body1" className={classes.desc}>
-              Marketplace for Shopping
+              Digital Vault for Travelers
             </Typography>
 
               <Dialog
@@ -190,54 +190,46 @@ export default function RewardsTiles() {
 
   const featuredPosts = [
     {
-      title: 'CCD - Cafe Coffee Day',
+      title: 'Passport',
       description:
-      'Discount - ₹600',
-      image: 'https://d168jcr2cillca.cloudfront.net/uploadimages/vouchers/promocode-130212-CafeCoffeeDay_600x800_Banner4.jpg',
+      'Status: Verified & Validated',
+      image: 'https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/03/passport-1617188053.jpg',
       imageText: 'Artists name',
       readmore: "While sitting down, stretch your arms out at your sides and press your shoulder blades together. With your palms facing down, circle your arms forwards around 20 times. Then, face your palms upwards and circle your arms backwards around 20 times. After this, circle your wrists 20 times in each direction."
     },
     {
-      title: 'Burger King',
+      title: 'Visa',
       description:
-      'Discount - ₹900',
-      image: 'https://cdn.zouton.com/images/originals/blog/BurgerKingPrintableCoupons02_1619174502_1619591461_1624264654.png',
+      'Status: Verified & Validated',
+      image: 'https://3.imimg.com/data3/GP/DL/MY-9910671/visa-and-passpor-service-500x500.png',
       imageText: 'Artists name',
       readmore: "Stand up and hold your hands together behind your back, expanding your chest. Pull your shoulder blades as close together as possible and hold the pose for 30 seconds."
     },
     {
-      title: 'Hershey',
+      title: 'Covid Vaccine Certificate',
       description:
-      'Discount - ₹1500',
-      image: 'https://www.chocolateworld.com/content/dam/chocolateworld/en_us/images/shop/HCW-Coupon-Experience.jpg?hei=570&wid=570&fmt=jpg',
+      'Status: Verified & Validated',
+      image: 'https://static.toiimg.com/thumb/msid-84309266,width-1200,height-900,resizemode-4/.jpg',
       imageText: 'Artists name',
       readmore: "Under your desk, raise both legs at once upwards, and slowly lower them down. Repeat few times."
     },
   
     {
-      title: 'Body Massage',
+      title: 'Travel Insurance',
       description:
-      'Discount - ₹1000',
-      image: 'https://i.pinimg.com/originals/97/46/4c/97464cc8f72681a2ca4f5805a3830ae9.jpg',
+      'Status: Verified & Validated',
+      image: 'https://images.livemint.com/img/2021/08/24/1600x900/2cd6397c-04be-11ec-89fd-c0c117172485_1629832872875_1629832929484.jpg',
       imageText: 'Artists name',
       readmore: "Holding a water bottle, or an object of a similar weight, let your arms fall straight by your side and then slowly bend them upwards. Repeat this action multiple times on both arms."
     },
   
     {
-      title: 'Random Gift',
+      title: 'Plane Tickets',
       description:
-      'Discount - ₹2000',
-      image: 'https://miro.medium.com/max/389/0*hvm47KSDViWS4iBP.png',
+      'Status: Verified & Validated',
+      image: 'https://media.cntraveler.com/photos/5b47bf2c4b1b564ac0e61d76/4:5/w_832,h_1040,c_limit/CNT_Intel_Plane%20Tickets_072018_TM%20Detwiler.jpg',
       imageText: 'Artists name',
       readmore: "Sitting at your desk, cover your left knee with your right hand and look over your left shoulder. Hold this pose for 30 seconds to stretch your back, remembering to breathe. Repeat the action on the opposite side."
-    },
-    {
-      title: 'Air tickets',
-      description:
-      'Discount - ₹800',
-      image: 'https://cdn.grabon.in/gograbon/images/merchant/1550847051101.png',
-      imageText: 'Artists name',
-      readmore: "Using a non-moving chair perch on the edge of the seat and slowly stand up with your arms by your sides. Lower yourself until you gently touch the chair and then stand back up, remembering to breathe. Repeat. For extra points, hover just over the chair for 30 seconds."
     },
   
   

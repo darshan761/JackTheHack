@@ -4,19 +4,21 @@ import Container from '@material-ui/core/Container';
 import Header from '../LandingPage/Header';
 import MainFeaturedPost from '../LandingPage/MainFeaturedPost';
 import Grid from '@material-ui/core/Grid';
-import Viz from '../Viz/Viz';
+import DigitalVaultTiles from './DigitalVaultTiles';
 
-export default function Dashboard() {
+
+
+export default function DigitalVault() {
    
     return (
       <React.Fragment>
         <CssBaseline />     
          <Container maxWidth="lg">
-          <Header title="Dashboard" />
+          <Header title="Market Place" />
           <main>
             <MainFeaturedPost post={mainFeaturedPost} />
             <Grid container spacing={2} align="center">
-              <Viz/>
+              <DigitalVaultTiles/>
             </Grid>
           </main>
         </Container>
@@ -26,10 +28,10 @@ export default function Dashboard() {
 }
 
 const mainFeaturedPost = {
-  title: 'Dashboard',
+  title: 'DigitalVault',
   description:
-    "Predective & Peeformance Analysis with graphical user interface providing at-a-glance views of key performance indicators (KPIs) relevant to airport management",
-  image: 'https://datadrivendesign.net/assets/images/Customizable_dashboard_V1.gif',
+    "Store all your information at one place. Be Safey & Secured by AIR DASH Platform.",
+  image: 'https://miro.medium.com/max/480/1*JPgnhoJBXyprgbmRQdihYA.gif',
   imgText: 'Employee Profile',
   linkText: 'Continue reading…',
 };

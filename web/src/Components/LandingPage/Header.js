@@ -14,6 +14,7 @@ const sections = [
   { title: 'Shop Marketplace', url: '#/shop' },
   { title: 'Points and Rewards', url: '#/rewards' },
   { title: 'Podcast & E-Books', url: '#/podcast' },
+  { title: 'Digital Vault', url: '#/vault' },
   { title: 'Dashboard', url: '#/dashboard' },
 ];
 

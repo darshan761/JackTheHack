@@ -7,6 +7,7 @@ import Shop from './Components/Shop/Shop';
 import Rewards from './Components/Rewards/Rewards';
 import Podcast from './Components/Podcast/Podcast';
 import Dashboard from './Components/Dashboard/Dashboard';
+import DigitalVault from './Components/DigitalVault/DigitalVault';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/shop" component={Shop}/>
             <Route exact path="/rewards" component={Rewards}/>
             <Route exact path="/podcast" component={Podcast}/>
+            <Route exact path="/vault" component={DigitalVault}/>
             <Route exact path="/dashboard" component={Dashboard}/>
           </Switch>
       </HashRouter>
