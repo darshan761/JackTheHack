@@ -210,7 +210,7 @@ const leaderBoardPts = [
 
 const dashboardStats = [
   {
-    title: 'Identification',
+    title: 'Identity Verification',
     icon: "https://thumbs.dreamstime.com/b/education-icon-related-graduation-cap-book-pencil-vector-flat-design-education-icon-related-graduation-cap-book-163866754.jpg",
   },
   {
