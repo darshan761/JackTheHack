@@ -28,7 +28,7 @@ export default function Shop() {
 }
 
 const mainFeaturedPost = {
-  title: 'Shop Marketplace',
+  title: 'Personalised Shop Marketplace',
   description:
     "Great Last-Minute Gifts You Can Find in Airports and with just one click away",
   image: 'https://assets0.domestika.org/course-images/000/019/250/19250-big.gif',
