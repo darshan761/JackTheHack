@@ -16,6 +16,7 @@ export default function Dashboard() {
           <main>
             <MainFeaturedPost post={mainFeaturedPost} />
             <Grid container spacing={2} align="center">
+                <h1>Cumulative Peek hours for Airport Sectors</h1>
               <Viz/>
             </Grid>
           </main>

@@ -14,7 +14,7 @@ export default function DigitalVault() {
       <React.Fragment>
         <CssBaseline />     
          <Container maxWidth="lg">
-          <Header title="Market Place" />
+          <Header title="DigitalVault" />
           <main>
             <MainFeaturedPost post={mainFeaturedPost} />
             <Grid container spacing={2} align="center">

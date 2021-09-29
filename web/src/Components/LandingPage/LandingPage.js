@@ -82,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
 const mainFeaturedPost = {
   title: 'AIR DASH',
   description:
-    "Digital Ally for Seamless Hours. Building Digital Airport and enhancing Customer onboarding experience and marketplace offerings across all the airports.",
+    "Digital Ally for Seamless Hours. Building Digital Airport and enhancing Customer onboarding experience with personalised shop marketplace offerings across all the airports.",
     image: "http://cdn.shopify.com/s/files/1/0061/7735/7891/articles/airplanes-actuators_17389e9d-f144-4f38-8d51-f8632a63c39c_1200x1200.jpg?v=1585138977",
   imgText: 'main image description',
   linkText: 'Continue reading…'
