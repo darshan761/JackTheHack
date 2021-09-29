@@ -209,7 +209,7 @@ const leaderBoardPts = [
 const dashboardStats = [
   {
     title: 'Identity Verification',
-    icon: "https://thumbs.dreamstime.com/b/education-icon-related-graduation-cap-book-pencil-vector-flat-design-education-icon-related-graduation-cap-book-163866754.jpg",
+    icon: "https://cdn.iconscout.com/icon/premium/png-256-thumb/verification-1681052-1428000.png",
   },
   {
     title: 'Medical',
