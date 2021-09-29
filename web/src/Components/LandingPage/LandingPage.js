@@ -15,7 +15,8 @@ import FaceIcon from '@material-ui/icons/Face';
 import Paper from '@material-ui/core/Paper';
 import toast from 'react-hot-toast';
 
-
+// meant for Charts
+import Viz from '../Viz/Viz';
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
@@ -325,6 +326,9 @@ export default function Home() {
 
         <br />
       </header>
+
+      <h1>Airport Cumulative Traffic</h1>
+      <Viz />
 
     </React.Fragment>
 
