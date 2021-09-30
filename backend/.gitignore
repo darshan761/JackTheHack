@@ -1,0 +1,6 @@
+
+# misc
+.DS_Store
+/venv
+/__pycache__
+Config.py
