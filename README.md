@@ -6,13 +6,15 @@ Deployed solution: https://airdash-9f5ac.web.app/#/
 
 # Frontend - React
 
-$ cd frontend
+$ cd web
 
 $ npm install
 
 $ npm start --will start frontend server @localhost:3000
 
 # Backend - Flask
+
+$ cd backend
 
 $ python -m venv venv
 
