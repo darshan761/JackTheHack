@@ -15,9 +15,6 @@ import FaceIcon from '@material-ui/icons/Face';
 import Paper from '@material-ui/core/Paper';
 import toast from 'react-hot-toast';
 
-// meant for Charts
-import Viz from '../Viz/Viz';
-
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
     marginTop: theme.spacing(3),
@@ -85,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
 const mainFeaturedPost = {
   title: 'AIR DASH',
   description:
-    "Digital Ally for Seamless Hours. Building Digital Airport and enhancing Customer onboarding experience and marketplace offerings across all the airports.",
+    "Digital Ally for Seamless Hours. Building Digital Airport and enhancing Customer onboarding experience with personalised shop marketplace offerings across all the airports.",
     image: "http://cdn.shopify.com/s/files/1/0061/7735/7891/articles/airplanes-actuators_17389e9d-f144-4f38-8d51-f8632a63c39c_1200x1200.jpg?v=1585138977",
   imgText: 'main image description',
   linkText: 'Continue reading…'
@@ -211,8 +208,8 @@ const leaderBoardPts = [
 
 const dashboardStats = [
   {
-    title: 'Identification',
-    icon: "https://thumbs.dreamstime.com/b/education-icon-related-graduation-cap-book-pencil-vector-flat-design-education-icon-related-graduation-cap-book-163866754.jpg",
+    title: 'Identity Verification',
+    icon: "https://cdn.iconscout.com/icon/premium/png-256-thumb/verification-1681052-1428000.png",
   },
   {
     title: 'Medical',
@@ -326,9 +323,6 @@ export default function Home() {
 
         <br />
       </header>
-
-      <h1>Airport Cumulative Traffic</h1>
-      <Viz />
 
     </React.Fragment>
 
